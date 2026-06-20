@@ -1,7 +1,7 @@
 import gradio as gr
 import requests
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://c7-hackathon-bottleneck-diagnostic.onrender.com"
 
 # Keep track of the logged-in user's token in memory during the session
 session_state = {"access_token": None, "user_id": None}
